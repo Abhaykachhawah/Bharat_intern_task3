@@ -1,0 +1,449 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+ 
+
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(netflix-img-current.jpg);
+    backface-visibility: black;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px opx;
+}
+
+.logo {
+    padding: 18px 3px;
+    width: 10.25rem;
+    height: 5.2rem;
+    print-color-adjust: red;
+    opacity: 0.9;
+    color: #fd0909;
+    display: block;
+    cursor: pointer;
+
+}
+
+nav button {
+    border: 0px;
+    outline: 0px;
+    padding: 7px 31px;
+    background: #f52222;
+    color: white;
+    cursor: pointer;
+    margin: 8px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.lang {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+
+    padding: 7px 10px;
+    border-width: 1px;
+    overflow: hidden;
+
+}
+
+ .lang img {
+        width: 10px;
+        margin-left: 10px;
+    } 
+
+.btn {
+    padding: 8px 13px;
+}
+
+.mid-lines {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    overflow: hidden;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 23px;
+}
+
+.mid-lines h1 {
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    opacity: 2;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.mid-lines h3 {
+    font-size: 1.3rem;
+    padding: 5px 5px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.mid-lines p {
+    font-size: 1rem;
+}
+
+.email-signup {
+    display: flex;
+    padding: 5px 5px;
+    color: #fff;
+}
+
+.email-signup input {
+    padding: 3px 9px;
+    background: transparent;
+    font-weight: 500;
+    cursor: text;
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 100%;
+    color: transparent;
+    overflow: hidden;
+    line-height: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+}
+
+.box-1 {
+    box-sizing: border-box;
+    display: flex;
+    border-top: 7px solid #333;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-1-lines h1 {
+    display: inline-flex;
+    margin: 70px;
+    /* padding: 12px 30px; */
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: left;
+    /* padding-right: 0.375rem; */
+    width: 100%;
+}
+
+.box-1-text {
+    display: inline-block;
+    padding: 0px 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.box-1 img {
+    width: 44%;
+    margin: auto;
+}
+
+.box-2 {
+    box-sizing: border-box;
+    display: flex;
+    border-top: 7px solid #333;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-2-lines h1 {
+
+    display: inline-flex;
+    margin: 0px;
+    padding: 12px 30px;
+    font-size: 3.1rem;
+    font-weight: 700;
+    padding-right: 7.375rem;
+    width: 100%;
+}
+
+.box-2-lines p {
+    display: inline-flex;
+    margin: -9px;
+    padding: 0px 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 0.375rem;
+    width: 100%;
+}
+
+.box-2 img {
+    width: 33%;
+    margin: auto;
+}
+
+.box-3 {
+    box-sizing: border-box;
+    display: flex;
+    border-top: 7px solid #333;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-3-lines {
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 3px;
+}
+
+.box-3-lines span {
+    display: inline-block;
+    margin: 0px;
+    padding: 20px 141px;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-right: 7.375rem;
+    width: 100%;
+}
+
+.box-3-lines p {
+    display: inline-flex;
+    margin: -9px;
+    padding: 0px 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 0.375rem;
+    width: 100%;
+}
+
+.box-3 img {
+    width: 44%;
+    margin: auto;
+}
+
+.box-4 {
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    border-top: 7px solid #333;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box-4-lines h1 {
+    display: inline-block;
+    margin: 0px;
+    padding: 28px 155px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-right: 7.375rem;
+    width: 100%;
+
+}
+
+.box-4-lines p {
+    display: inline-flex;
+    margin: -9px;
+    padding: 1px 110px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 9.375rem;
+    width: 100%;
+}
+
+.box-4 img {
+    display: flex;
+    justify-content: center;
+    width: 44%;
+    margin: auto;
+
+}
+
+.questions {
+    padding: 10px 12%;
+    border-top: 7px solid #333;
+    text-align: center;
+    font-size: 18px;
+}
+
+.questions h1 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.insider {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+    padding: 0px 0px;
+}
+
+.insider li {
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.insider li label {
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    padding: 20px;
+    background: #303030;
+    margin-bottom: 2px;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+label::after {
+    content: "+";
+    position: absolute;
+    font-size: 50px;
+    right: 20px;
+    bottom: 5px;
+    padding: 2px 2px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.insider .content {
+    background: #303030;
+    max-height: 0px;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+
+.insider input[type="radio"]:checked+label+.content {
+    max-height: 700px;
+    padding: 20px 30px;
+}
+
+.insider input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+.email {
+    margin: auto;
+
+    padding: 5px 150px;
+}
+
+.email-signup1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    color: #fff;
+}
+
+.email-signup1 input {
+    padding: 3px 9px;
+    background: transparent;
+    font-weight: 500;
+    cursor: text;
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 100%;
+    color: transparent;
+    overflow: hidden;
+    line-height: 1.5rem;
+    padding: 1.5rem 1rem 0.5rem;
+}
+
+.button2 {
+    display: flex;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 1rem;
+    background: #fd0909;
+    line-height: 1rem;
+    padding: 1rem 3rem 0.5rem
+}
+
+/* ................................................footer.................................................... */
+
+.footer {
+    padding: 50px 15% 10px;
+    color: #777;
+
+}
+
+.footer h3 {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+
+}
+
+
+
+
+.footer .col {
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+    padding: 12px 23px 20px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.footer .col a {
+    color: #777;
+    padding: 7px 10px;
+
+}
+
+#lang {
+
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 24px;
+    border-width: 1px;
+    overflow: hidden;
+    color: #fff;
+    float: left;
+
+}
+
+.lang img {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.footer_btn p {
+    position: absolute;
+    padding: 55px 3px;
+    font-size: 1rem;
+}
